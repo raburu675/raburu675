@@ -1,6 +1,6 @@
-#Hi there!
+Hi there!
 ---
-##Don Raburu, Full stack web developer
+Don Raburu, Full stack web developer
 ---
-##TechStack
+TechStack
 ***
