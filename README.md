@@ -1,5 +1,4 @@
 Hi there!👋🏿
 ----
-Don Raburu || Full stack web developer👨🏿‍💻
+Don Raburu || Full Stack Web Developer👨🏿‍💻
 ---
-
