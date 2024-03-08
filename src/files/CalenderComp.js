@@ -53,7 +53,7 @@ const CalendarComp = ({onDateSelect}) => {
         <Calendar
         date={new Date()}
         onChange={handleSelect}
-        className='absolute mt-10'
+        className='absolute  mt-6'
         />
         }
         </div>
