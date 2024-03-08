@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import CalendarComp from './CalenderComp';
-import axios  from 'axios';
+
+// import axios from 'axios';
 
 function Reservation() {
+
+    
 
     //set state to track the input values
     const [ formData, setFormData] = useState({
@@ -24,7 +27,7 @@ function Reservation() {
             ...formData,
             [e.target.name]: e.target.value,
           });
-    }
+    };
 
     // Handle date selection from CalendarComp
     const handleDateSelect = (selectedDate) => {
@@ -37,17 +40,15 @@ function Reservation() {
       //function to handle the submission of the form
       const handleSubmit = async (e) => {
         e.preventDefault();
-        try {
-            // Assuming you have a backend endpoint to which you want to send the data
-            const response = await axios.post('http://localhost:5000/booking-details', formData);
-    
-            // Handle the response as needed, e.g., show a success message or redirect the user
-            console.log('Response:', response.data);
-    
-        } catch (error) {
-            // Handle any errors that occurred during the request
-            console.error('Error:', error.message);
-        }
+        // try {
+        //     // Assuming you have a backend endpoint to which you want to send the data
+        //     const response = await axios.post('http://localhost:5000/booking-details', formData);
+        //     // Handle the response as needed, e.g., show a success message or redirect the user
+        //     console.log('Response:', response.data);
+        // } catch (error) {
+        //     // Handle any errors that occurred during the request
+        //     console.error('Error:', error.message);
+        // }
     };
     
   return (
